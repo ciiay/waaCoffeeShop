@@ -44,10 +44,10 @@ public class ProductServiceTest {
 				productType = ProductType.BREAKFAST;
 				break;
 			case 1:
-				productType = ProductType.LUNCH;
+				productType = ProductType.DINNER;
 				break;
 			default:
-				productType = ProductType.DINNER;
+				productType = ProductType.LUNCH;
 			}
 			product.setProductType(productType);
 			testProduct[i] = product;
